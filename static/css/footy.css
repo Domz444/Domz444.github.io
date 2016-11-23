@@ -1,0 +1,61 @@
+*
+section {
+	padding: 60px 0;
+	background: #ffffff;
+}
+
+*/.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+section.play-buttons{
+  background-color: black;
+  opacity: 0.5;
+}
+
+
+.img-responsive{
+     position: relative;
+    top: 0px;
+    right: 0px;
+    height: 70px;
+ width: auto;
+  display: block;
+    margin: 0 auto;
+   
+}
+section.module.parallax { 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  /*background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;*/
+}
+section.module.content{
+ 
+ background-color: transparent!important;
+}
+section.module.parallax h1 {
+
+  color: gray;
+  font-size: 70px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-1 {
+  background: url("C:/Users/Domz44/Desktop/Unomena/FrontEnd/Andro/Domz/static/img/footy/ozil2.jpg") no-repeat center center fixed;
+}
+section.module.parallax-2 {
+  background: url("C:/Users/Domz44/Desktop/Unomena/FrontEnd/Andro/Domz/static/img/footy/sanchez.jpg") no-repeat center top fixed;
+}
+section.module.parallax-3 {
+  background: url("C:/Users/Domz44/Desktop/Unomena/FrontEnd/Andro/Domz/static/img/footy/ramsey1.jpg") no-repeat center top fixed;
+}
