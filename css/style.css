@@ -8973,3 +8973,15 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+    @media (min-width:320px)  { 
+      .col-md-7.col-sm-12.text-center.ftco-animate.fadeInUp.ftco-animated {
+        position: absolute;
+        top: 10%;
+    }
+    img {
+      width: auto;
+      max-width: 100%;
+      height: auto;
+  }
+     }
