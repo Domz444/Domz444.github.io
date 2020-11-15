@@ -7747,6 +7747,7 @@ h1, h2, h3, h4, h5,
         list-style: none;
         display: inline-block;
         line-height: 0;
+        width:0;
         padding: 0 10px; }
         .ftco-intro .wrap .social .social-icon li a {
           display: block;
@@ -8211,7 +8212,7 @@ textarea.form-control {
 
 .ftco-footer {
   font-size: 16px;
-  padding: 7em 0;
+  padding: 1em;
   background: #fac564; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
@@ -8260,6 +8261,7 @@ textarea.form-control {
 .ftco-footer-social li {
   list-style: none;
   margin: 0 10px 0 0;
+  width: 0;
   display: inline-block; }
   .ftco-footer-social li a {
     height: 50px;
