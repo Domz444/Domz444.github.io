@@ -8560,6 +8560,10 @@ textarea.form-control {
         .ftco-menu .nav-pills .nav-link.active:after, .ftco-menu .nav-pills .nav-link:hover:after {
           opacity: 0; } }
     @media (max-width: 767.98px) {
+      .ftco-menu{
+        padding-top: 1em;
+        padding-bottom: 1em;
+      }
       .ftco-menu .nav-pills .nav-link {
         display: block;
         width: 100%;
