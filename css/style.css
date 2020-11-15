@@ -7283,7 +7283,7 @@ body {
     width: 100%; }
 
 span {
-  color: #bfbfbf; }
+  color: #fff; }
 
 a {
   -webkit-transition: .3s all ease;
@@ -7740,7 +7740,9 @@ h1, h2, h3, h4, h5,
       .ftco-intro .wrap .social {
         width: 100%; } }
     .ftco-intro .wrap .social .social-icon {
-      margin: 0; }
+      margin: 0 auto;
+    padding-left: 0;
+    text-align: center; }
       .ftco-intro .wrap .social .social-icon li {
         list-style: none;
         display: inline-block;
