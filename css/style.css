@@ -7519,8 +7519,17 @@ h1, h2, h3, h4, h5,
     right: -25px; }
   .owl-carousel.home-slider {
     position: relative;
-    height: 750px;
+    height: 700px;
     z-index: -1; }
+                  /* Portrait and Landscape */
+                  @media only screen 
+                  and (min-device-width: 375px) 
+                  and (max-device-width: 736px) 
+                  and (-webkit-min-device-pixel-ratio: 3) { 
+                    .owl-carousel.home-slider {
+                      height: 600px;
+                  }
+                  }
     .owl-carousel.home-slider .slider-item {
       background-size: cover;
       background-repeat: no-repeat;
@@ -7545,7 +7554,8 @@ h1, h2, h3, h4, h5,
             text-align: left !important; } }
         @media (max-width: 767.98px) {
           .owl-carousel.home-slider .slider-item .slider-text {
-            text-align: center; } }
+            text-align: center;
+            } }
         .owl-carousel.home-slider .slider-item .slider-text .subheading {
           font-family: "Nothing You Could Do", cursive;
           font-size: 30px;
