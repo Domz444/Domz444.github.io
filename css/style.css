@@ -8216,7 +8216,8 @@ textarea.form-control {
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
-      padding: 6em 0; } }
+      padding: 6em 0; } 
+    }
 
 .ftco-bg-dark {
   background: #000; }
@@ -9206,7 +9207,7 @@ textarea.form-control {
 }
 
 section.ftco-section.contact-section {
-    padding: 2em 0;
+    padding: 0;
 }
 h3.title.text-capitalize.text-dark {
   color: white !important;
