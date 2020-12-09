@@ -9130,7 +9130,7 @@ textarea.form-control {
 
 .address-left {
   line-height: 2;
-  padding: 2em 1em;
+  padding: 1.2em 1em;
 }
 
 .address-left span.fa {
@@ -9225,4 +9225,17 @@ p.title-text.font-weight-light.font-italic.mt-2 span {
   background: #00abff;
   color: #fff;
   border: none;
+}
+
+.booking-confirmation {
+    color: black;
+    display: block;
+    margin: 0.5em auto;
+}
+
+a.btn.btn-info {
+  background-color: #d2a047;
+  border: none;
+  border-radius: 0.5em;
+  font-size: 1em;
 }
