@@ -1,11 +1,21 @@
 const button = document.querySelector('#flip');
-const tradingCard = document.querySelector('.trading-card');
+const tradingCarda = document.querySelector('.trading-carda');
+const tradingCardb = document.querySelector('.trading-cardb');
+const tradingCardc = document.querySelector('.trading-cardc');
 const flipContainer = document.querySelector('.flip-container');
 
+function displayGame(){
+  var elSuccess = document.getElementById('cardOverlay');
+  elSuccess.style.display = 'none';
+}
 button.onclick = function() {
-  tradingCard.classList.toggle('flipped');
+  tradingCarda.classList.toggle('flipped');
+  tradingCardb.classList.toggle('flipped');
+  tradingCardc.classList.toggle('flipped');
 }
 
 flipContainer.onclick = function() {
-  tradingCard.classList.toggle('flipped');
+  tradingCarda.classList.toggle('flipped');
+  tradingCardb.classList.toggle('flipped');
+  tradingCardc.classList.toggle('flipped');
 }
